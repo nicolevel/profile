@@ -1,0 +1,129 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-image: url("images/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #0d627a;
+}
+
+h2 {
+  color: #0c907d;
+}
+
+h3 {
+  color: #0c907d;
+}
+
+p{
+  color: white;
+}
+
+a {
+  color: #D0D0D0;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  color:  #0c907d;
+  text-decoration: none;
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li{
+  flex: 33.33%;
+}
+
+td{
+  margin-bottom: 5%;
+}
+
+.images_destinations{
+  border-radius: 2%;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.container {
+  margin-left:20% ;
+  margin-right:20%;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4% 5%;
+  margin-bottom: 3%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 1%;
+}
+
+.btn-blue {
+  background-color: #0d627a;
+  color: white;
+  padding: 1% 4%;
+  border-radius: 5%;
+}
+
+.btn-blue:hover{
+  background-color: #0c907d;
+  color: white;
+  font-weight: bold;
+  transition: 2s;
+}
+
+.images_web{
+  border-radius: 50%;
+}
+
+#profile_picture{
+  border-radius: 50%;
+  transform: rotate(-5deg);
+}
+
+#title{
+  margin-bottom:5%;
+}
+
+#link_lewagon{
+  color: rgba(13, 98, 122, .8);
+}
+
+#link_lewagon:hover{
+  color: rgba(13, 98, 122, 1);
+}
+
+#paragraph1{
+  color: #0d627a;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;}
+}
+
+
+
